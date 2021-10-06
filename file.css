@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+}
+
+.Header {
+    background-image: url(blur.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.Header div {
+    margin-left: 8%;
+    padding-left: 5%;
+}
+
+.Header div img {
+    width:100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    margin-left: -80px;
+    height: 70%;
+    width: 70%;
+}
+
+.Pages ul li {
+    display: inline-block;
+}
+
+.Pages ul li a {
+    background-color: white;
+    border-style: solid;
+    color: black;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.text {
+    font-weight: bolder;
+    margin-top: 6%;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-right: 15%;
+}
+
+
+.Sub-header {
+    width: 100%;
+    height: 70%;
+    background-color:silver;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.Sub-header div {
+    margin-left: 8%;
+    padding-left: 5%;
+}
+.Sub-header div img {
+    width:100%;
+    height: auto;
+}
+
+
+nav img {
+    margin-left: -80px;
+    height: 70%;
+    width: 70%;
+}
+
+.Form {
+    text-align: center;
+    size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+	nav > div {
+          width:100%;
+       }
+    nav { display: block;}
+}
+
+.Donate{
+    text-shadow: none;
+    color: black;
+    background-color: #fff;
+    font-weight: bold;
+    border-style: solid;
+}
+
+.Donate:hover{
+    background-color: aqua;
+    color: palevioletred;
+}
+
+.services{
+    background-color: lightgray;
+    height: 50%
+}
+
+.services h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+nav img {
+    margin-left: -80px;
+    height: 70%;
+    width: 70%;
+}
+
+.Images {
+    display: flex;
+    justify-content: center;
+}
+
+.Images img{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 30%;
+    height: auto;
+}
+
+.services nav img {
+    width:100%;
+    height: auto;
+    margin-left: 1%;
+    padding-left: 2%;
+
+}
+
+.services .text {
+    margin-top: 0%;
+    margin-right: 0%;
+    font-weight: lighter;
+}
+
+.Location {
+    width:80%;
+    margin:auto;
+}
+
+.Location iframe {
+    width: 100%;
+}
